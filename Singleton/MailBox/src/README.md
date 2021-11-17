@@ -5,7 +5,7 @@ Yaratılan örneğe public erişim noktası sağlanmalıdır.</p>
 
 ---
 
-**<p>Peki bunu nasıl yapabiliz?</p>**
+**<p>Peki bunu nasıl yapabiliriz?</p>**
     
     1. Öncelikle singleton oluşturulacak sınıfın constructor metodunu dışarıdan erişime kapatmalıyız.
     2. Referans değişkenini static belirlemeliyiz.
