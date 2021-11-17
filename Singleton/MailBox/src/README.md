@@ -5,7 +5,7 @@ Yaratılan örneğe public erişim noktası sağlanmalıdır.</p>
 
 ---
 
-**<p>Peki bunu nasıl yapabiliiz?</p>**
+**<p>Peki bunu nasıl yapabiliz?</p>**
     
     1. Öncelikle singleton oluşturulacak sınıfın constructor metodunu dışarıdan erişime kapatmalıyız.
     2. Referans değişkenini static belirlemeliyiz.
@@ -45,6 +45,9 @@ bu görünümlere ulaşmak amaçlanmıştır.</p>
 
 ![resim](https://github.com/FrtSkr/Design-Patterns/blob/main/Singleton/MailBox/SS/ss1.png)
 
-
+<p>Biz singleton desenini tek threadli sistemlere göre oluşturduk. Yapmış olduğumuz deseni çok threadli 
+sistemlerde kullanmamız sakıncalıdır. Multi threadli yapılar için oluşturulacak singleton deseni, single threadli yapılara göre
+farklılık göstermektedir.
+</p>
 
 
