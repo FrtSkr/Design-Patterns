@@ -54,7 +54,7 @@ fabrikamızdır. Böylelikle istemcinin nesne yaratma sorumluluğu soyutlanmış
 
 ---
 
-##Peki neden nesne oluşturma sorumluluğunu istemciden soyutladık?
+#### Peki neden nesne oluşturma sorumluluğunu istemciden soyutladık?
 <p>Herhangi bir değişiklikte istemcinin etiklenmesini istemeyiz. 
 Oluşturduğumuz sınıflarımızda (C, PHP, Python) gerçekleşecek olan bir 
 değişiklik istemciyi etkilemeyecektir. Daha esnek ve test edilebilir
