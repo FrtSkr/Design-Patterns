@@ -1,4 +1,9 @@
-package PACKAGE_NAME;
+public class Python implements IConverter{
+    public Python() {
+    }
 
-public class Python {
+    @Override
+    public void convert(IConverter converter) {
+        System.out.println("Converter to Python ...");
+    }
 }

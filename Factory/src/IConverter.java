@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
-public class IConverter {
+interface IConverter {
+    void convert(IConverter converter);
 }

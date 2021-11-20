@@ -1,4 +1,9 @@
-package PACKAGE_NAME;
+public class PHP implements IConverter{
+    public PHP() {
+    }
 
-public class PHP {
+    @Override
+    public void convert(IConverter converter) {
+        System.out.println("Converter to PHP ...");
+    }
 }
