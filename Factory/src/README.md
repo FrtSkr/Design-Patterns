@@ -3,7 +3,7 @@ Factory deseni, aralarında bir takım ilişki bulunan nesnelerin oluşturulmas�
 bir arayüzdür. İstemci, ne yaratacağını bilir ama bunun nasıl yaratılacağıyla ilgilenmez.
 İstemciyi nesne yaratma zahmetinden kurtaran bir kahramandır.
 <p>
-Bunu günlük hayatımızdan bir örnek ile açıklayacak olursam; Diyelim ki biz bir laptop 
+Bunu günlük hayatımızdan bir örnek ile açıklayacak olursam; Diyelim ki bir laptop 
 almak istiyoruz. Herhangi bir markanın laptop ürettiğini biliriz ama bu markanın fabrikasının
 laptobu hangi yöntemlerle ürettiğiyle ilgilenmeyiz.
 </p>
@@ -16,7 +16,7 @@ interface IConverter {
 }
 ```
 IConverter, bir code dönüştürücü arayüzüdür. Bu arayüzü implemente eden sınıflarımız (C, PHP, Python)
-converter metodunu override ederek dönüştürme işlemlerini gerçekletiriyorlar.
+converter metodunu override ederek dönüştürme işlemlerini gerçekletiriyor.
 
 ---
 
@@ -33,7 +33,7 @@ public IConverter createConverter(String language){
         }
     }
 ```
-ConverterFactory sınıfımız, IConverter arayüzünü implemente eden sınıfların yaratılmasından sorumlu
+ConverterFactory sınıfı, IConverter arayüzünü implemente eden sınıfların yaratılmasından sorumlu
 fabrikamızdır. Böylelikle istemcinin nesne yaratma sorumluluğu soyutlanmış oldu.
 
 ```
@@ -56,6 +56,6 @@ fabrikamızdır. Böylelikle istemcinin nesne yaratma sorumluluğu soyutlanmış
 
 #### Peki neden nesne oluşturma sorumluluğunu istemciden soyutladık?
 <p>Herhangi bir değişiklikte istemcinin etiklenmesini istemeyiz. 
-Oluşturduğumuz sınıflarımızda (C, PHP, Python) gerçekleşecek olan bir 
+Oluşturduğumuz sınıflarda (C, PHP, Python) gerçekleşecek olan bir 
 değişiklik istemciyi etkilemeyecektir. Daha esnek ve test edilebilir
 bir yapı oluşturacaktır.</p>
