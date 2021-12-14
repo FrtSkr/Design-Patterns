@@ -8,7 +8,7 @@ Abstract Factory ise yine aralarında ilişkili fakat bir ürün ailesi olduğu 
 birleştiriyor.
 
 
-![UML](UML/AbstractFactoryUML.png)
+![UML](https://github.com/FrtSkr/Design-Patterns/blob/main/AbstractFactory/UML/AbstractFactoryUML.png)
 
 
 Client'te (Main) hangi markanın parçaları üretileceği belirlenir 
