@@ -6,7 +6,7 @@ Ayrıca kompleks yapıdaki bir nesneyi adım adım oluşturmak istendiğinde
 de kullanılabilir.
 
 
-![BUILDER_UML](../UML/BUILDER_UML.png)
+![BUILDER_UML](https://github.com/FrtSkr/Design-Patterns/blob/main/Builder/UML/Builder_UML.png)
 
 ---
 
