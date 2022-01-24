@@ -9,7 +9,7 @@ kullanılabilir. Ayrıca alt sistem istemciden gizlenmek istenirse de kullanıla
 Facade sınıfı ile alt sistem birbirine sıkı sıkıya bağlı olmamalıdır. Yani facade kaldırıldığında
 alt sistem istemci tarafında çalışıyor olmalıdır.
 
-![UML](../UML/FACADE_UML.png)
+![UML](https://github.com/FrtSkr/Design-Patterns/blob/main/Facade/UML/FACADE_UML.png)
 
 ---
 
